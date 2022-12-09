@@ -133,7 +133,7 @@ int main()
     system("cls");
 	printHanoi(&h1, &h2, &h3, num);
 	while(1) {
-        printf("데이터 입력 : ");
+        printf("데이터 입력(보내는 위치/받는 위치) : ");
         scanf(" %c %c", &from, &to);
         system("cls");
         if(wrong(from) || wrong(to)) {
